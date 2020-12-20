@@ -1,0 +1,57 @@
+.auth {
+  &__button{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    background-color: blue;
+    border: none;
+    border-radius:10px;
+    font-size: 30px;
+    cursor: pointer;
+    
+  }
+  &__container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background:white;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    height: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  &__title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 80%;
+}
+.go-back{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: url(./assets/arrow.svg) no-repeat center center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   
+}

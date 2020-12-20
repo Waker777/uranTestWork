@@ -1,0 +1,57 @@
+.drop-zone {
+  &__item{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 800px;
+    height: max-content;
+    min-height: 200px;
+    border: 4px dashed #4aa1f3;
+    padding: 10px;
+    position: relative;
+  }
+  &__icon {
+    width: 50px;
+    height: 50px;
+    background: url(../../assets/upload.svg) no-repeat center center;
+    background-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  &__file {
+    &-display-container {
+      display: flex;
+    }
+    &-status-bar {
+      display: flex;
+      width: 100%;
+      vertical-align: top;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      position: relative;
+      line-height: 50px;
+    }
+    &-info {
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+    }
+  }
+  &__selected-item{
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  &__progress{
+    width: 100%;
+  }
+}
